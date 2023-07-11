@@ -1,0 +1,190 @@
+# exclude processed data from git repository. These files will be available on the hosted directory
+
+/HiC_analysis/extracting_loop_counts/counts/*
+/HiC_analysis/extracting_loop_counts/correction_factors/*
+/HiC_analysis/insulation_score/ins_tables/*
+
+/ATAC_seq_analysis/diffbind_object.Rdata
+/ATAC_seq_analysis/diffbind_result/*
+/ATAC_seq_analysis/ATAC_DESeq2_VST_normalized_counts.csv
+/ATAC_seq_analysis/ATAC_DESeq2_normalized_counts.csv
+/ATAC_seq_analysis/ATAC_DESeq2_quantile_normalized_counts.csv
+
+/ATAC_allelic_imbalance/combined_p_vals_files/*
+/ATAC_allelic_imbalance/all_p_val_called.pk
+/ATAC_allelic_imbalance/results_allele_specific_snp/*
+
+/HiC_allelic_imbalance/*.pk
+/HiC_allelic_imbalance/*.bedpe
+/HiC_allelic_imbalance/*.csv
+/HiC_allelic_imbalance/*.gz
+/HiC_allelic_imbalance/*.gz.tbi
+/HiC_allelic_imbalance/*.bed
+
+
+/HiC_analysis/extracting_loop_counts/aggregated_counts/
+/HiC_analysis/extracting_loop_counts/correction_factors/
+/HiC_analysis/extracting_loop_counts/counts/
+/HiC_analysis/insulation_score/ins_tables/
+/HiC_analysis/output_results/
+/HiC_analysis/mustache_loops/
+/HiC_analysis/insulation_score/aggregated_norm_ins_scores.csv.gz
+
+/integration_analysis/output_files/
+/integration_analysis/region_figure_maker/region_figures/
+
+/QTL_analysis/ATAC/covariates/
+/QTL_analysis/ATAC/output_final/
+/QTL_analysis/ATAC/*.bed.gz
+/QTL_analysis/ATAC/*.bed.gz.tbi
+
+/QTL_analysis/HiC/covariates/
+/QTL_analysis/HiC/output_final/
+/QTL_analysis/HiC/*.bed.gz
+/QTL_analysis/HiC/*.bed.gz.tbi
+
+/QTL_analysis/RNA/covariates/
+/QTL_analysis/RNA/output_final/
+/QTL_analysis/RNA/*.bed.gz
+/QTL_analysis/RNA/*.bed.gz.tbi
+
+/RNA_seq_analysis/DEseq2_result/
+/RNA_seq_analysis/RNA_vsd_counts.csv
+
+
+/gencode_gtf.pickle
+
+
+
+# ignore vscode stuff
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
