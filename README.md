@@ -15,7 +15,9 @@ As Genotypes and raw reads for patients are considered personal information thes
 
 If you use our data or use our code to run your analysis please cite the manuscript:
 
-
+**Multi-omics analysis in primary T cells elucidates mechanisms behind disease associated genetic loci**  
+Chenfu Shi, Danyun Zhao, Stefano Rossi, Antonios Frantzeskos, James Ding, Carlo Ferrazzano, Charlotte Wynn, Ryan Hum, Ellie Richards, Muskan Gupta, Chuan Fu Yap, Darren Plant, Richard Grencis, Paul Martin, Antony Adamson, Stephen Eyre, John Bowes, Anne Barton, Pauline Ho, Magnus Rattray, Gisela Orozco  
+medRxiv 2023.07.19.23292550; doi: https://doi.org/10.1101/2023.07.19.23292550
 
 ## Requirements
 The analysis includes a mix of Python and R scripts.
@@ -67,6 +69,7 @@ Allelic imbalance tables:
 pregenerated correlation Hi-C maps for all genes, chromatin accessibility and highly significant loop and insulation QTLs:  
 [webpage](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_output_hic_plots/main.html)
 
+[samples metadata tables](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/metadata/)
 
 [RNA-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/RNA_seq_analysis/RNA_normalized_counts.csv)  
 [ATAC-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/ATAC_seq_analysis/ATAC_DESeq2_quantile_normalized_counts.csv)  
