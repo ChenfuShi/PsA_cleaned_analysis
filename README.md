@@ -9,6 +9,10 @@ Note however that bam files will not be available as the reads information is co
 
 The repository on github will not include a lot of data due to size limits by github. You can find the full folder with all the files on http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis.
 
+Two notebooks that might be useful:
+print all QTL and allelic imbalance information for a particular SNP: [access on colab](https://colab.research.google.com/github/ChenfuShi/PsA_cleaned_analysis/blob/main/integration_analysis/Everything_printer_public.ipynb)  
+Identify the closes SNPs for which we have pregenerated a Hi-C correlation map: [access on colab](https://colab.research.google.com/github/ChenfuShi/PsA_cleaned_analysis/blob/main/integration_analysis/find_SNP.ipynb)  
+
 As Genotypes and raw reads for patients are considered personal information these cannot be released. If you require these please get in contact with gisela.orozco[at]manchester.ac.uk
 
 ## Citation
