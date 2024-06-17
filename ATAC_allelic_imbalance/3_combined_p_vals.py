@@ -1,5 +1,7 @@
 #######
 # this script takes the preprocessed combined individual p-value files and calculates grouped p-values for each variant
+
+# note that we cannot provide raw genotypes for the patients, so this script is here only as a reference and it cannot be run
 #######
 
 

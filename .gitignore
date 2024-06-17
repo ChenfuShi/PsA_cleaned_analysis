@@ -1,5 +1,7 @@
 # exclude processed data from git repository. These files will be available on the hosted directory
 
+*.local*
+
 /HiC_analysis/extracting_loop_counts/counts/*
 /HiC_analysis/extracting_loop_counts/correction_factors/*
 /HiC_analysis/insulation_score/ins_tables/*

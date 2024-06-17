@@ -1,5 +1,6 @@
 ######
 # script that takes the counts from the previous step and generates p-values for each loop
+# provided for reference only because we can't provide the bam files
 ######
 
 
