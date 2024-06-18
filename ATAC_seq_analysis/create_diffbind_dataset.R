@@ -16,7 +16,7 @@ library("readxl")
 library("pheatmap")
 options(bitmapType="cairo")
 
-dataset_info_file = "/mnt/jw01-aruk-home01/projects/psa_functional_genomics/PsA_cleaned_analysis/metadata/cleaned_ATAC_metadata.csv"
+dataset_info_file = "../metadata/cleaned_ATAC_metadata.csv"
 dataset_info = read.csv(dataset_info_file)
 dataset_peaks_location = "/mnt/jw01-aruk-home01/projects/psa_functional_genomics/master_ATAC_ChIP_analyzer/macs2"
 dataset_alignment_location = "/mnt/jw01-aruk-home01/projects/psa_functional_genomics/master_ATAC_ChIP_analyzer/clean_alignments"
