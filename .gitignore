@@ -21,7 +21,6 @@
 /HiC_allelic_imbalance/*.csv
 /HiC_allelic_imbalance/*.gz
 /HiC_allelic_imbalance/*.gz.tbi
-/HiC_allelic_imbalance/*.bed
 
 
 /HiC_analysis/extracting_loop_counts/aggregated_counts/
