@@ -36,47 +36,49 @@ Data has been preprocessed according to the manuscript's methods. Preprocessing 
 You can find the following files to be particularly useful if you want to do further analysis:  
 QTL tables:
 
-[eQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/RNA/output_final/RNA_nominal_CD4_merged.txt)  
-[eQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/RNA/output_final/RNA_nominal_CD8_merged.txt)  
-[eQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/RNA/output_final/RNA_permuted_CD4_merged.txt)  
-[eQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/RNA/output_final/RNA_permuted_CD8_merged.txt)  
+[eQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/RNA/RNA_nominal_CD4_merged.txt)  
+[eQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/RNA/RNA_nominal_CD8_merged.txt)  
+[eQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/RNA/RNA_permuted_CD4_FDR.txt)  
+[eQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/RNA/RNA_permuted_CD8_FDR.txt)  
 
 
-[caQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/ATAC/output_final/ATAC_nominal_CD4_merged.txt)  
-[caQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/ATAC/output_final/ATAC_nominal_CD8_merged.txt)  
-[caQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/ATAC/output_final/ATAC_permuted_CD4_merged.txt)  
-[caQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/ATAC/output_final/ATAC_permuted_CD8_merged.txt)  
+[caQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/ATAC/ATAC_nominal_CD4_merged.txt)  
+[caQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/ATAC/ATAC_nominal_CD8_merged.txt)  
+[caQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/ATAC/ATAC_permuted_CD4_FDR.txt)  
+[caQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/ATAC/ATAC_permuted_CD8_FDR.txt)  
 
 
-[insQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/ins_nominal_CD4_merged.txt)  
-[insQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/ins_nominal_CD8_merged.txt)  
-[insQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/ins_permuted_CD4_merged.txt)  
-[insQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/ins_permuted_CD8_merged.txt)  
+[insQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/ins_nominal_CD4_merged.txt)  
+[insQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/ins_nominal_CD8_merged.txt)  
+[insQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/ins_permuted_CD4_FDR.txt)  
+[insQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/ins_permuted_CD8_FDR.txt)  
 
 
-[loopQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/loop_nominal_CD4_merged.txt)  
-[loopQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/loop_nominal_CD8_merged.txt)  
-[loopQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/loop_permuted_CD4_merged.txt)  
-[loopQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/QTL_analysis/HiC/output_final/loop_permuted_CD8_merged.txt)  
+[loopQTL nominal CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/loop_nominal_CD4_merged.txt)  
+[loopQTL nominal CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/loop_nominal_CD8_merged.txt)  
+[loopQTL permutation CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/loop_permuted_CD4_FDR.txt)  
+[loopQTL permutation CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/QTLS/HiC/loop_permuted_CD8_FDR.txt)  
 
 
 Allelic imbalance tables:
 
-[loop allelic imbalance CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/HiC_allelic_imbalance/output_dataframe_CD4.csv)  
-[loop allelic imbalance CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/HiC_allelic_imbalance/output_dataframe_CD8.csv)  
+[loop allelic imbalance CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/allelic_imbalance/allelic_imbalance_CD4_apeglm_results.csv)  
+[loop allelic imbalance CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/allelic_imbalance/allelic_imbalance_CD8_apeglm_results.csv)  
+[loop allelic imbalance merged](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/allelic_imbalance/allelic_imbalance_ALL_apeglm_results.csv)  
 
-[ATAC allelic imbalance CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/ATAC_allelic_imbalance/combined_p_vals_files/all_SNPs_CD4_all.csv)  
-[ATAC allelic imbalance CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/ATAC_allelic_imbalance/combined_p_vals_files/all_SNPs_CD8_all.csv)  
-[ATAC allelic imbalance merged](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/ATAC_allelic_imbalance/combined_p_vals_files/all_SNPs_all.csv)  
+
+[ATAC allelic imbalance CD4+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/atac/allelic_imbalance/ATAC_CD4_allelic_imbalance_with_betabinom.csv.gz)  
+[ATAC allelic imbalance CD8+](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/atac/allelic_imbalance/ATAC_CD8_allelic_imbalance_with_betabinom.csv.gz)  
+[ATAC allelic imbalance merged](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/atac/allelic_imbalance/ATAC_ALL_allelic_imbalance_with_betabinom.csv.gz)  
 
 
 pregenerated correlation Hi-C maps for all genes, chromatin accessibility and highly significant loop and insulation QTLs:  
 [webpage](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_output_hic_plots/main.html)
 
-[samples metadata tables](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/metadata/)
+[samples metadata tables](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/metadata/)
 
-[RNA-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/RNA_seq_analysis/RNA_normalized_counts.csv)  
-[ATAC-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis/ATAC_seq_analysis/ATAC_DESeq2_quantile_normalized_counts.csv)  
+[RNA-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/rna/RNA_normalized_counts.csv)  
+[ATAC-seq counts for all samples](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/atac/merged/ATAC_DESeq2_quantile_normalized_counts.csv)  
 
 
 [Merged Hi-C juicebox files for visualization at up to 1kb resolution](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/merged/)
