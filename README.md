@@ -4,24 +4,30 @@
 This repository contains the scripts to reproduce the analysis presented in the manuscript.
 The scripts will often use paths as set up to work in the environment of the university of manchester cluster. These will need to be changed when you download the preprocessed data and set up the scripts in your environment.
 
-Please find all pre-processed data in http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/.
-Note however that bam files will not be available as the reads information is considered protected access due to being able to call genotypes from the reads.
+Please find all pre-processed data in http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/.  
+This data is also available in the following repositories:
+- Precomputed Hi-C correlation maps with gene expression, chromatin accessibility, and various variants are available on BioStudies (https://doi.org/https://doi.org/10.6019/S-BSST1819)
+- Processed datasets are available from GEO accession numbers GSE282511 (RNA-seq), GSE282510 (Hi-C), and GSE282992 (ATAC-seq).
+- The raw data have been deposited with links to BioProject accession number PRJNA1185164 in the NCBI BioProject database (https://www.ncbi.nlm.nih.gov/bioproject/).
 
-The repository on github will not include a lot of data due to size limits by github. You can find the full folder with all the files on http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis.
+A static version of this repository is uploaded to [zenodo](https://doi.org/https://doi.org/10.5281/zenodo.14007665).  
+
+Additional data not uploaded to github is located in http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/PsA_cleaned_analysis.
 
 Two notebooks that might be useful:  
 print all QTL and allelic imbalance information for a particular SNP: [access on colab](https://colab.research.google.com/github/ChenfuShi/PsA_cleaned_analysis/blob/main/integration_analysis/Everything_printer_public.ipynb)  
 Identify the closes SNPs for which we have pregenerated a Hi-C correlation map: [access on colab](https://colab.research.google.com/github/ChenfuShi/PsA_cleaned_analysis/blob/main/integration_analysis/find_SNP.ipynb)  
 
-As Genotypes and raw reads for patients are considered personal information these cannot be released. If you require these please get in contact with gisela.orozco[at]manchester.ac.uk
-
 ## Citation
 
 If you use our data or use our code to run your analysis please cite the manuscript:
 
-**Multi-omics analysis in primary T cells elucidates mechanisms behind disease associated genetic loci**  
-Chenfu Shi, Danyun Zhao, Stefano Rossi, Antonios Frantzeskos, James Ding, Carlo Ferrazzano, Charlotte Wynn, Ryan Hum, Ellie Richards, Muskan Gupta, Chuan Fu Yap, Darren Plant, Richard Grencis, Paul Martin, Antony Adamson, Stephen Eyre, John Bowes, Anne Barton, Pauline Ho, Magnus Rattray, Gisela Orozco  
-medRxiv 2023.07.19.23292550; doi: https://doi.org/10.1101/2023.07.19.23292550
+**Multi-omics analysis in primary T cells elucidates mechanisms behind disease-associated genetic loci**  
+Chenfu Shi, Danyun Zhao, Jake Butler, Antonios Frantzeskos, Stefano Rossi, James Ding, Carlo Ferrazzano, Charlotte Wynn, Ryan Malcolm Hum, Ellie Richards, Muskan Gupta, Khadijah Patel, Chuan Fu Yap, Darren Plant, Richard Grencis, Paul Martin, Antony Adamson, Stephen Eyre, John Bowes, Anne Barton, Pauline Ho, Magnus Rattray & Gisela Orozco.  
+**Genome Biol 26, 26 (2025).**  
+https://doi.org/10.1186/s13059-025-03492-y
+
+
 
 ## Requirements
 The analysis includes a mix of Python and R scripts.
@@ -82,6 +88,7 @@ pregenerated correlation Hi-C maps for all genes, chromatin accessibility and hi
 
 
 [Merged Hi-C juicebox files for visualization at up to 1kb resolution](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/merged/)
+[AllValidPairs files for each sample](http://bartzabel.ls.manchester.ac.uk/orozcolab/SNP2Mechanism/hic/AllValidPairs/)
 
 ## Directory Listing
 
